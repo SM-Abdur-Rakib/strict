@@ -1,0 +1,279 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+	font-style: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: monospace;
+
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+	position: relative;
+}
+.row
+{
+	width: 100%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+.col-md-4{
+	width: 33.33%;
+	float:left;
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+/*heder-section start*/
+.heder-section{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 10px 0px;
+
+}
+.banner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url('../img/banner.png')center top no-repeat;
+	background-size: cover;
+}
+.inner-banner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	text-align: center;
+}
+.inner-banner h1{
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 700px;
+	color:#ffffff;
+	padding-bottom: 15px;
+}
+.inner-banner .divider{
+	width: 45%;
+	height: 2px;
+	margin: 30px auto 20px;
+	background: #15a4fa; 
+	}
+
+
+.inner-banner p{
+	font-size: 16px;
+	color:#ffffff;
+	padding-bottom: 70px;
+}
+.inner-banner .btn{
+	padding:10px 35px;
+	border: 2%;
+	background: transparent;
+	border: 1px solid #15a4fa;
+	text-decoration: none;
+	color:#fff;	 
+	}
+.battom-arr{
+	width: 100%;
+	float: left;
+	text-align:center;
+	margin: 60px 0px 0px;
+}
+.battom-arr img{
+	margin-top:80px;
+}
+.about{
+	width: 100%;
+	float: left;
+	padding:80px 0px;
+	text-align: center;
+	background: #f6f9f9 ;
+}
+.about h1{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 700px;
+	color: #2d3950;
+	margin-bottom: 10px;
+}
+.about p{
+		font-size: 14px;
+	line-height: 24px;
+	font-weight: 400px;
+	color: #a7a8a8;
+}
+.feature{
+	width:100%;
+	float: left;
+	padding: 80px 0px;
+	text-align: center;
+	background: #ffffff;
+}
+.feature img{
+margin-bottom: 15px;
+}
+.feature h4{
+	font-size: 18px;
+line-height: 28px;
+	font-weight: 700px;
+	color:#000;
+	margin-bottom: 10px;
+
+}
+
+.feature p{
+	font-style: 14px;
+	line-height: 24px;
+	font-weight: 400px;
+	color:#a0a0a0;
+}
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+}
+.portfolio .title{
+	width: 100%;
+	float: left;
+	padding: 20px 0px 80px;
+	text-align: center;
+}
+.portfolio .title h1{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 600px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.portfolio .title p{
+		font-size: 14px;
+	line-height: 24px;
+	font-weight: 400px;
+	color: #999999;
+}
+
+
+.mar{
+	margin: 20px 0px 0px;
+}
+
+.inner-portfolio{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.port-hover{
+	
+    position: absolute;
+    width: 95%;
+    height: 98%;
+    background: rgb(32, 160, 233, .5);
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: none;
+    transition: 1s;
+}
+.hover-inner{
+	 position: absolute;
+     top: 40%;
+     left: 33%;
+}
+.inner-portfolio:hover .port-hover{
+	display: block;
+
+}
+/**stay-us start*/
+
+.stay-us{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url("../img/stay.png") center top no-repeat;
+	background-size: cover;
+}
+.stay-us .title{
+	width: 100%;
+	float: left;
+	padding: 20px 0px 80px;
+	text-align: center;
+}
+.title h1{
+	font-size: 42px;
+	line-height: 52px;
+	font-weight: 600px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.title p{
+		font-size: 14px;
+	line-height: 24px;
+	font-weight: 400px;
+	color: #fff;
+}
+.main-form{
+	width: 55%;
+	margin: 0px auto;
+}
+.form-group{
+	width:100%;
+	float: left;
+	margin: 10px 0px;
+}
+
+.form-group .form-control{
+	width: 96%;
+	padding: 15px;
+	background:transparent;
+	border:2px solid #999999;
+	border-radius: 5px;
+
+}
+.form-group span{
+	color: #fff;
+}
+.text-right{
+	text-align: right;
+}
+.form-group .btn-info{
+	padding: 12px 40px;
+	background: transparent;
+	border:2px solid #15a4fa;  
+	border-radius:5px;
+	font-style: 16px;
+	color: #fff; 
+	transition: 1s;
+}
+.form-group .btn-info:hover{
+	background:#15a4fa;
+	border:2px solid #15a4fa; 
+	color: #fff;
+	cursor: pointer;
+
+
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 20px 0px 15px;
+}
+.footer p{
+	margin-top: 10px;
+}
+
+.footer .social{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
